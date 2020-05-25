@@ -1,0 +1,18 @@
+
+It is now the year 2030...
+
+The world has been reduced to rubbles...
+
+The last standing nation, Korea, is on its last legs.
+
+A [GATE] has just appear inside the captial, Seoul...
+
+You are a new E-rank hunter tasked with entering the [Gate]
+from the Korean Hunter Association.
+	* You must explore the [Gate] and defeat the Boss before
+		an {OUTBREAK} occurs. 
+
+		**You have 20 days.
+
+	* To enter the boss room, you must search the dungeon
+		to find a <key> to open the boss room.
