@@ -139,16 +139,12 @@ int Queue::delFront(Node** head)
         if (tail == (*head))
         {
             //Removes the head node
-            //cout << "Removing: " << tail->getData() << endl;
-            //cout << "\r\n";
             delete tail;
 
             //resets head and tail
             tail = NULL;
             (*head) = NULL;
-
-            //informs user that list is now empty
-            //cout << "**List is now empty." << endl;            
+          
         }
         //If There are more than 1 nodes
         else
@@ -162,9 +158,7 @@ int Queue::delFront(Node** head)
                 prevNodePtr = prevNodePtr->getNext();
             }
             
-            //Moves head and delete node that was at head
-            //cout << "Removing: " << (*head)->getData() << endl;
-            //cout << "\r\n";
+            //delete node that was at head
             delete (*head);
 
             //Moves head forward one
@@ -203,16 +197,11 @@ int Queue::delBack(Node** head)
         if (tail == (*head))
         {
             //Removes head node
-            //cout << "Removing: " << tail->getData()->getClass() << endl;
-            //cout << "\r\n";
             delete tail;
 
             //resets head and tail
             tail = NULL;
             (*head) = NULL;
-
-            //tells user nothing in list
-            //cout << "**List is now empty." << endl;
         }
         //If There are more than 1 nodes
         else
@@ -228,8 +217,6 @@ int Queue::delBack(Node** head)
 
             //Unlinks from the node that tail is on
             prevNodePtr->setNext(NULL);
-            //cout << "Removing: " << tail->getData() << endl;
-            //cout << "\r\n";
             delete tail;
         }
 

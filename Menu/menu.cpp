@@ -23,7 +23,7 @@ using std::string;
 ****************************************************************/
 int Menu::selection()
 {
-    //Menu selection and validation.;
+    //Menu selection and validation.
     cout << "Welcome to the program menu." << endl;
     cout << "Please choose from the following options:" << endl;
     cout << "   1. Enter '1' to start the Solo-Leveling game." << endl;
