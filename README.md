@@ -4,7 +4,7 @@
 ### Project Description
 > Design and implement a one-play, text-based game where players are able to move through spaces to obtain items and accomplish a goal.
 
-#### Project Requirements
+### Project Requirements
 - Self-build data structures (no libraries)
 - Space class (Represents the space a player is in). Space class must be an abstract class with pure virtual functions and must have 4 Space pointers (left, right, up, down)
 - 3 derived Space classes
